@@ -66,8 +66,7 @@ public class Main
 			String shorturl = idToShortURL(n); 
 			
 			// Output onto screen shortened url 
-			System.out.println("The generated short url is " + shorturl + ".io"); 
-			System.out.println("Here is your un-shortened url: " + url);
+			System.out.println("The generated short url is " + shorturl + ".io\n"); 
 			
 			 counter++;
 	            if (counter > 9) {
